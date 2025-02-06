@@ -23,7 +23,7 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
-//        event.getPlayer().setResourcePack("");
+        event.getPlayer().setResourcePack("https://github.com/kipteamm/ChatEmojis/blob/master/src/main/resources/ChatEmojisResourcePack.zip");
     }
 
     @EventHandler
