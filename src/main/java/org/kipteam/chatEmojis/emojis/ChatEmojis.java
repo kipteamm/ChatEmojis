@@ -23,6 +23,16 @@ public class ChatEmojis {
         chatEmojis.put("hot", "\uE006");
         chatEmojis.put("grinning", "\uE007");
         chatEmojis.put("grin", "\uE007");
+        chatEmojis.put("nerd", "\uE008");
+        chatEmojis.put("scream", "\uE009");
+        chatEmojis.put("scared", "\uE009");
+        chatEmojis.put("sick", "\uE010");
+        chatEmojis.put("puke", "\uE010");
+        chatEmojis.put("disgusted", "\uE010");
+        chatEmojis.put("sob", "\uE011");
+        chatEmojis.put("crying", "\uE011");
+        chatEmojis.put("sad", "\uE012");
+        chatEmojis.put("skull", "\uE013");
     }
 
     public Map<String, String> getEmojis() {

@@ -1,12 +1,18 @@
 {
     "providers": [
-        {"type": "bitmap", "file": "emojis:joy.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:grimacing.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:heart_eyes.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:angry.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:confused.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:sunglasses.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:hot.png", "ascent": 9, "height": 10, "chars": [""]},
-        {"type": "bitmap", "file": "emojis:grinning.png", "ascent": 9, "height": 10, "chars": [""]}
+        {"type": "bitmap", "file": "emojis:joy.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:grimacing.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:heart_eyes.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:angry.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:confused.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:sunglasses.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:hot.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:grinning.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:nerd.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:scream.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:sick.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:sob.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:sad.png", "ascent": 8, "height": 10, "chars": [""]},
+        {"type": "bitmap", "file": "emojis:skull.png", "ascent": 8, "height": 10, "chars": [""]}
     ]
 }
