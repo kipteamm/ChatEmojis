@@ -1,0 +1,4 @@
+name: ChatEmojis
+version: '1.0-SNAPSHOT'
+main: org.kipteam.chatEmojis.Main
+api-version: '1.21'
