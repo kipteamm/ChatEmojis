@@ -3,6 +3,7 @@ package org.kipteam.chatEmojis.events;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.chat.hover.content.Text;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -30,7 +31,7 @@ public class PlayerListener implements Listener {
         if (!event.getStatus().equals(PlayerResourcePackStatusEvent.Status.DECLINED)) return;
 
         Player player = event.getPlayer();
-        player.sendMessage("Your client failed to load the server resource pack. This server uses a resource pack to show emojis.");
+        player.sendMessage(ChatColor.GRAY + "Your client failed to load the server resource pack. This server uses a resource pack to show emojis, however installing it is optional.");
     }
 
     @EventHandler
