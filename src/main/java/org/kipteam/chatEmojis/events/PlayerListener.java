@@ -28,12 +28,10 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onResourceStatus(PlayerResourcePackStatusEvent event) {
-        System.out.println("RESOURCE PACK STATUS:");
-        System.out.println(event.getStatus());
         if (!(event.getStatus().equals(PlayerResourcePackStatusEvent.Status.FAILED_RELOAD))) return;
 
         Player player = event.getPlayer();
-        player.sendMessage(ChatColor.GRAY + "Your client failed to load the server resource pack. This server uses a resource pack to show emojis, however installing it is optional.");
+        player.sendMessage(ChatColor.GRAY + "Your client failed to load the server resource pack. This server uses a resource pack to show emojis.");
     }
 
     @EventHandler
