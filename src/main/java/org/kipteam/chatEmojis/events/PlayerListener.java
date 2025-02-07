@@ -23,11 +23,13 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
-        event.getPlayer().setResourcePack("https://github.com/kipteamm/ChatEmojis/blob/master/src/main/resources/ChatEmojisResourcePack.zip");
+        event.getPlayer().setResourcePack("https://github.com/kipteamm/ChatEmojis/blob/master/ChatEmojisResourcePack.zip");
     }
 
     @EventHandler
     public void onResourceStatus(PlayerResourcePackStatusEvent event) {
+        System.out.println("RESOURCE PACK STATUS:");
+        System.out.println(event.getStatus());
         if (!event.getStatus().equals(PlayerResourcePackStatusEvent.Status.DECLINED)) return;
 
         Player player = event.getPlayer();

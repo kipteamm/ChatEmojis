@@ -2,3 +2,6 @@ name: ChatEmojis
 version: '1.0-SNAPSHOT'
 main: org.kipteam.chatEmojis.Main
 api-version: '1.21'
+commands:
+  chatemojis:
+    description: Find out how to use the chat emojis.
